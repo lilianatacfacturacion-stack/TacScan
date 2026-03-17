@@ -1,0 +1,22 @@
+{
+  "name": "TacScan — TAC Liliana Sánchez",
+  "short_name": "TacScan",
+  "description": "Gestión inteligente de facturas por cliente",
+  "start_url": "/tacscan/",
+  "display": "standalone",
+  "background_color": "#2e2e2e",
+  "theme_color": "#c9a84c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
