@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test JavaScript</title>
+</head>
+<body style="background:#222;color:#fff;padding:30px;font-family:sans-serif;font-size:18px">
+
+<h2>Test JavaScript y Archivos</h2>
+
+<div id="jstest" style="padding:15px;background:#f55;border-radius:10px;margin-bottom:20px">
+  ❌ JavaScript NO funciona
+</div>
+
+<input type="file" style="display:block;width:100%;padding:15px;font-size:16px;margin-bottom:15px">
+
+<button onclick="document.getElementById('resultado').textContent='✅ Botón funcionó!'" 
+  style="width:100%;padding:20px;font-size:18px;background:#c9a84c;border:none;border-radius:10px;color:#000;font-weight:700">
+  Pulsa aquí para probar
+</button>
+
+<div id="resultado" style="margin-top:20px;font-size:20px;color:#0f0"></div>
+
+<script>
+document.getElementById('jstest').style.background = '#0a0';
+document.getElementById('jstest').textContent = '✅ JavaScript SÍ funciona';
+</script>
+</body>
+</html>
